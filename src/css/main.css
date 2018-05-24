@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#main{
+	width: 100%;
+	background: #ccc;
+}
+
+header{
+	float: left;
+	width: 100%
+
+}
+
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+
+#header-box{
+	width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*slide*/
+.slide{
+	background: url('../images/revolution-05-center.jpg');
+	height: 600px;
+}
+
+#slide1{
+	position: absolute;
+	margin: 180px 0 0 0;
+	font-size: 30px;
+	color: #fff;
+	width: 400px;
+	text-align: right;
+}
+
+/* Topo*/
+
+
+#box-phone{
+	text-align: right;
+}
+
+/*Espaçamento Topo*/
+
+#box-bar-top{
+	margin-top: 10px;
+}
+
+/*menu topo*/
+#menu-top{
+	float: right;
+}
+
+#menu-top li{
+	float: left;
+	margin: 0 5px 0 5px;
+}
+
+/*Logo*/
+
+#logo-box{
+	float: left;
+	width: 140px;
+	height: 140px;
+}
+
+/*Section*/
+#section2{
+	float: left;
+	padding-top: 30px;
+	width: 100%;
+
+}
+
+/* Title Section 2*/
+
+#title-section-2{
+	text-align: center;
+	font-size: 25px;
+	color: #000;
+	
+}
+
+/*Title-Blocks-Section-2*/
+
+.block-title-section-2{
+	margin: 50px 15px 50px 15px;
+	float: left;
+	width: 300px;
+
+}
+
+#block3-title-section-2{
+	margin-right: 0;
+
+}
+
+/*Icones Section 2*/
+.icone-section2{
+	float: left;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+}
+
+.icone-section2 img{
+	width: 40px;
+
+}
+
+.title-section2{
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+/* Title Section 3*/
+
+#title-section-3{
+	text-align: center;
+	font-size: 25px;
+	color: #000;
+	
+}
+
